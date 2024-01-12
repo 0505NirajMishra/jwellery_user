@@ -9,6 +9,9 @@
     "clean": "rimraf \"{.next,node_modules}\"",
     "export": "next build && next export"
   },
+  "ct3aMetadata": {
+    "initVersion": "6.11.0"
+  },
   "dependencies": {
     "@floating-ui/react-dom-interactions": "0.13.3",
     "@fontsource/open-sans": "4.5.14",
