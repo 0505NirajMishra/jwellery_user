@@ -11,7 +11,7 @@ const withPWA = require('next-pwa')({
 module.exports = withPWA({
   i18n,
   // output: 'export',
-  distDir: 'out',
+  // distDir: 'out',
   images: {
     domains: [
       '127.0.0.1',
@@ -25,6 +25,7 @@ module.exports = withPWA({
       's3.amazonaws.com',
       '18.141.64.26',
       'backapi.whitedebeers.com',
+      'siyagem.thecompletesoftech.in',
       'via.placeholder.com',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
       'chawkbazarlaravel.s3.ap-southeast-1.amazonaws.com',

@@ -8,7 +8,7 @@ import { getToken } from './get-token';
 // baseURL: process.env.NEXT_PUBLIC_REST_API_ENDPOINT,
 
 const request = axios.create({
-  baseURL: 'http://siyagem.thecompletesoftech.in/', // TODO: take this api URL from env
+  baseURL: 'https://siyagem.thecompletesoftech.in/', // TODO: take this api URL from env
   timeout: 300000000,
   headers: {
     Accept: 'application/json',
